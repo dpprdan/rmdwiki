@@ -1,0 +1,13 @@
+Package: rmdwiki
+Title: Wiki Markup Output Formats and Templates for RMarkdown 
+Version: 0.0.0.9000
+Authors@R: person("Daniel", "Possenriede", email = "possenriede@gmail.com", role = c("aut", "cre"))
+Description: Create wiki markup output from RMarkdown (rmd) documents.
+License: GPL-3
+Imports: 
+    rmarkdown (>= 1.10)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+URL: https://github.com/dpprdan/rmdwiki
+BugReports: https://github.com/dpprdan/rmdwiki/issues

@@ -10,10 +10,10 @@
 #'
 #' @return R Markdown output format to pass to \code{\link[rmarkdown]{render}}
 #' @export
-mediawiki_document = function(keep_md = FALSE) {
+mediawiki_document = function(keep_md = FALSE, pandoc_args = NULL) {
   rmarkdown::output_format(
     knitr  = rmarkdown::knitr_options(opts_chunk = list(dev = 'png')),
-    pandoc = rmarkdown::pandoc_options(to = "mediawiki"),
+    pandoc = rmarkdown::pandoc_options(to = "mediawiki", args = pandoc_args),
     keep_md = keep_md,
     clean_supporting = TRUE
   )

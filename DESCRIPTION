@@ -1,6 +1,6 @@
 Package: rmdwiki
 Title: Wiki Markup Output Formats and Templates for RMarkdown 
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: c(
     person("Daniel", "Possenriede", email = "possenriede@gmail.com", role = c("aut", "cre")),
     person("Julian", "Reinhold", email = "holidayjulian@mailbox.org", role = "ctb"))

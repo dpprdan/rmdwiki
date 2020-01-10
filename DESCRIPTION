@@ -1,7 +1,9 @@
 Package: rmdwiki
 Title: Wiki Markup Output Formats and Templates for RMarkdown 
 Version: 0.0.0.9000
-Authors@R: person("Daniel", "Possenriede", email = "possenriede@gmail.com", role = c("aut", "cre"))
+Authors@R: c(
+    person("Daniel", "Possenriede", email = "possenriede@gmail.com", role = c("aut", "cre")),
+    person("Julian", "Reinhold", email = "holidayjulian@mailbox.org", role = "ctb"))
 Description: Create wiki markup output from RMarkdown (rmd) documents.
 License: GPL-3
 Imports: 

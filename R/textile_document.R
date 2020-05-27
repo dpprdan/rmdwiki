@@ -4,10 +4,9 @@
 #'
 #' @inheritParams mediawiki_document
 #'
-#' @seealso
-#' \href{https://www.promptworks.com/textile}{Textile reference manual}
+#' @seealso [Textile reference manual](https://www.promptworks.com/textile)
 #'
-#' @return R Markdown output format to pass to \code{\link[rmarkdown]{render}}
+#' @inherit mediawiki_document return
 #' @export
 textile_document = function(keep_md = FALSE, pandoc_args = NULL) {
   rmarkdown::output_format(

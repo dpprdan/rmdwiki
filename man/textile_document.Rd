@@ -12,7 +12,7 @@ textile_document(keep_md = FALSE, pandoc_args = NULL)
 \item{pandoc_args}{Additional command line options to pass to pandoc.}
 }
 \value{
-R Markdown output format to pass to \code{\link[rmarkdown]{render}}
+R Markdown output format to pass to \code{\link[rmarkdown:render]{rmarkdown::render()}}.
 }
 \description{
 Format for converting from R Markdown to Textile.

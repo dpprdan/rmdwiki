@@ -15,10 +15,9 @@
 #'
 #' @export
 mediawiki_document <-
-  function(
-    keep_md = FALSE,
-    pandoc_args = NULL,
-    wikitable = TRUE) {
+  function(keep_md = FALSE,
+           pandoc_args = NULL,
+           wikitable = TRUE) {
     post_processor <-
       function(metadata, input_file, output_file, clean, verbose) {
         lns <- readLines(output_file)
@@ -27,7 +26,7 @@ mediawiki_document <-
         output_file
       }
     rmarkdown::output_format(
-      knitr  = rmarkdown::knitr_options(opts_chunk = list(dev = "png")),
+      knitr = rmarkdown::knitr_options(opts_chunk = list(dev = "png")),
       pandoc = rmarkdown::pandoc_options(to = "mediawiki", args = pandoc_args),
       keep_md = keep_md,
       post_processor = if (wikitable) post_processor else NULL,

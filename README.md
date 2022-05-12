@@ -6,16 +6,18 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/dpprdan/rmdwiki/workflows/R-CMD-check/badge.svg)](https://github.com/dpprdan/rmdwiki/actions/workflows/check-release.yaml)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 {rmdwiki} creates wiki markup output from RMarkdown (rmd) documents.
 Specify e.g. `rmdwiki::mediawiki_document` as the output of your Rmd
-file and knitting the document should return a `*.mediawiki` file. Only
-`mediawiki_document` and `textile_document` formats are supported at the
-moment.
+file and knitting the document should return a `*.mediawiki` file. The
+package currently supports the following formats:
 
-This package is in early (and slow) development and should therefore be
-considered experimental.
+-   `mediawiki_document`
+-   `textile_document`
+-   `dokuwiki_document`
 
 ## Installation
 

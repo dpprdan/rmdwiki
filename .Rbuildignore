@@ -1,3 +1,4 @@
 ^README\.Rmd$
 ^rmdwiki\.Rproj$
 ^\.Rproj\.user$
+^\.github$

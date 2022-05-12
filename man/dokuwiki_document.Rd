@@ -19,4 +19,10 @@ Format for converting from R Markdown to DokuWiki.
 }
 \seealso{
 \href{https://www.dokuwiki.org/dokuwiki}{DokuWiki reference manual}
+
+Other wiki formats: 
+\code{\link{mediawiki_document}()},
+\code{\link{textile_document}()},
+\code{\link{xwiki_document}()}
 }
+\concept{wiki formats}

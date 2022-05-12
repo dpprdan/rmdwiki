@@ -4,6 +4,8 @@
 #'
 #' @inheritParams mediawiki_document
 #'
+#' @family wiki formats
+#'
 #' @seealso [DokuWiki reference manual](https://www.dokuwiki.org/dokuwiki)
 #'
 #' @inherit mediawiki_document return

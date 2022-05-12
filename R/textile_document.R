@@ -4,6 +4,8 @@
 #'
 #' @inheritParams mediawiki_document
 #'
+#' @family wiki formats
+#'
 #' @seealso [Textile reference manual](https://www.promptworks.com/textile)
 #'
 #' @inherit mediawiki_document return

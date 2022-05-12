@@ -1,11 +1,12 @@
 Package: rmdwiki
-Title: Wiki Markup Output Formats and Templates for R Markdown
+Title: Wiki Markup Output Formats for R Markdown
 Version: 0.0.0.9003
 Authors@R: 
     c(person(given = "Daniel",
              family = "Possenriede",
              role = c("aut", "cre"),
-             email = "possenriede@gmail.com"),
+             email = "possenriede+r@gmail.com",
+             comment = c(ORCID = "0000-0002-6738-9845")),
       person(given = "Julian",
              family = "Reinhold",
              role = "ctb",

@@ -18,6 +18,7 @@ package currently supports the following formats:
 -   `mediawiki_document`
 -   `textile_document`
 -   `dokuwiki_document`
+-   `xwiki_document`
 
 ## Installation
 

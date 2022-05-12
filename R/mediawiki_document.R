@@ -10,6 +10,8 @@
 #'   for tables, default is `TRUE`.
 # nolint end
 #'
+#' @family wiki formats
+#'
 #' @seealso [MediaWiki markup
 #' documentation](https://www.mediawiki.org/wiki/Help:Formatting)
 #'

@@ -22,4 +22,10 @@ Format for converting from R Markdown to MediaWiki Markup.
 }
 \seealso{
 \href{https://www.mediawiki.org/wiki/Help:Formatting}{MediaWiki markup documentation}
+
+Other wiki formats: 
+\code{\link{dokuwiki_document}()},
+\code{\link{textile_document}()},
+\code{\link{xwiki_document}()}
 }
+\concept{wiki formats}

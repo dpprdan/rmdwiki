@@ -3,3 +3,4 @@
 export(dokuwiki_document)
 export(mediawiki_document)
 export(textile_document)
+export(xwiki_document)

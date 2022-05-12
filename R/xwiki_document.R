@@ -6,7 +6,9 @@
 #'
 #' @family wiki formats
 #'
-#' @seealso [XWiki reference manual](https://www.xwiki.org/xwiki/bin/view/Documentation/UserGuide/Features/XWikiSyntax/) # nolint
+# nolint start
+#' @seealso [XWiki reference manual](https://www.xwiki.org/xwiki/bin/view/Documentation/UserGuide/Features/XWikiSyntax/)
+# nolint end
 #'
 #' @inherit mediawiki_document return
 #' @export

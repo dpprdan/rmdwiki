@@ -11,7 +11,7 @@ mediawiki_document(keep_md = FALSE, pandoc_args = NULL, wikitable = TRUE)
 
 \item{pandoc_args}{Additional command line options to pass to pandoc.}
 
-\item{wikitable}{Use \href{https://www.mediawiki.org/wiki/Help:Tables#class="wikitable"}{\code{class=wikitable}} # nolint
+\item{wikitable}{Use \href{https://www.mediawiki.org/wiki/Help:Tables#class="wikitable"}{\code{class=wikitable}}
 for tables, default is \code{TRUE}.}
 }
 \value{

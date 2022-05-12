@@ -1,6 +1,6 @@
 #' Convert to DokuWiki Markup
 #'
-#' Format for converting from R Markdown to DokuWiki
+#' Format for converting from R Markdown to DokuWiki.
 #'
 #' @inheritParams mediawiki_document
 #'
@@ -8,7 +8,7 @@
 #'
 #' @inherit mediawiki_document return
 #' @export
-docuwiki_document <- function(keep_md = FALSE, pandoc_args = NULL) {
+dokuwiki_document <- function(keep_md = FALSE, pandoc_args = NULL) {
   rmarkdown::output_format(
     knitr = rmarkdown::knitr_options(opts_chunk = list(dev = "png")),
     pandoc = rmarkdown::pandoc_options(to = "dokuwiki", args = pandoc_args),
